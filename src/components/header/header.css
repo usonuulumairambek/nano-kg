@@ -1,0 +1,31 @@
+.header {
+    height: 100px;
+    background-color: rgba(224, 224, 224, 0.486);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
+}
+
+.header__logo img {
+    width: 80px;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+.header__menu{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+.header__menu li{
+    list-style: none;
+}
+.header__menu li a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+}
